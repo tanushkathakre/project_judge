@@ -49,10 +49,10 @@ def main():
     # Predict Button
     if st.button("Predict"):
         if case_facts:
-            # Feature 1: Summary Generation
-            st.markdown("<div class='section'><h3>Case Summary</h3></div>", unsafe_allow_html=True)
-            summary = generate_summary(case_facts)
-            st.write(summary)
+            # # Feature 1: Summary Generation
+            # st.markdown("<div class='section'><h3>Case Summary</h3></div>", unsafe_allow_html=True)
+            # summary = generate_summary(case_facts)
+            # st.write(summary)
 
             # Feature 3: Winning Probability Prediction
             st.markdown("<div class='section'><h3>Winning Probability Prediction</h3></div>", unsafe_allow_html=True)
