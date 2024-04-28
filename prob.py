@@ -1,5 +1,5 @@
 import pandas as pd
-import scikit-learn pip
+import scikit-learn
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import make_pipeline
