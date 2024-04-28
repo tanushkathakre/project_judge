@@ -7,7 +7,7 @@ from nltk.stem import WordNetLemmatizer
 import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
-# nltk.download('wordnet')
+nltk.download('wordnet')
 
 # Initialize lists to store valid cases
 valid_cases = []
